@@ -49,5 +49,3 @@ Transfer learning is essentially when a machine learning model takes what it has
 ## Note
 You can see more details about training steps and testing results inside [Brain_Tumor_Classification.ipynb](https://github.com/masoudnick/Brain-Tumor-MRI-Classification/blob/main/Brain_Tumor_Classification.ipynb)
 
-If you find this repository helpful, feel free to star it!
-And do give me your suggestions or opinions. Thank you
