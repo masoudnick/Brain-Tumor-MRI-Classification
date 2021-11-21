@@ -1,4 +1,4 @@
-# Brain Tumor MRI Classification Using Transfer learning
+# Brain Tumor MRI Classification Using Pre-trained Models
 
 ## What is a brain tumor?
 
@@ -42,9 +42,9 @@ Crop the part of the image that contains only the brain (which is the most impor
 
 ![preprocessing result](https://github.com/masoudnick/Brain-Tumor-MRI-Classification/blob/main/preprocess.jpg)
 
-## Transfer Learning
+## Pre-trained Model
 
-Transfer learning is essentially when a machine learning model takes what it has learnt solving one problem and applies it to another problem of a similar nature. As a result, you only need a small amount of data to solve the latter task. For this project, I decided to do transfer learning with the **ResNet50** model to perform image classification for brain tumor MRI images.[Resnet50 Article](https://arxiv.org/abs/1512.03385)
+A pre-trained model is a model that was trained on a large benchmark dataset to solve a problem similar to the one that we want to solve. Accordingly, due to the computational cost of training such models, it is common practice to import and use models from published literature (e.g. VGG, Inception, ResNet50). For this project, I decided to use **ResNet50** model to perform image classification for brain tumor MRI images.[Resnet50 Article](https://arxiv.org/abs/1512.03385)
 
 ## Note
 You can see more details about training steps and testing results inside [Brain_Tumor_Classification.ipynb](https://github.com/masoudnick/Brain-Tumor-MRI-Classification/blob/main/Brain_Tumor_Classification.ipynb)
